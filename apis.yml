@@ -1,8 +1,25 @@
 aid: geode
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/geode.png
 name: Geode
-description: 'Geode is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Geode Finance is a decentralized, trustless staking infrastructure protocol
+  on Ethereum (with an earlier Avalanche v1 deployment) that lets anyone create and
+  operate permissionless, configurable liquid-staking pools without intermediaries.
+  Through its Portal router, isolated storage, dual governance, staking derivatives
+  (gETH / gAVAX), an operator marketplace, withdrawal contracts, bound liquidity pools,
+  and the Telescope oracle system, entities can launch their own liquid staking derivatives,
+  isolate risk profiles, run KYC/AML-segregated pools, and earn sustainable maintenance-fee
+  revenue. Developers integrate via the geodefi Python SDK and geo-vue UI components.'
 url: https://raw.githubusercontent.com/api-evangelist/geode/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto Web3
+- DeFi
+- Liquid Staking
+- Ethereum
+- Avalanche
+- Staking
+- Blockchain
+- Node Operators
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,28 @@ maintainers:
 common:
 - type: Website
   url: https://geode.fi
+- type: DeveloperPortal
+  url: https://docs.geode.fi
+- type: Documentation
+  url: https://docs.geode.fi
+- type: GitHubOrganization
+  url: https://github.com/Geodefi
+- type: Packages
+  url: packages/geode-packages.yml
+- type: SDKs
+  url: packages/geode-packages.yml
+- type: Components
+  url: components/geode-components.yml
+- type: LLMsTxt
+  url: llms/geode-llms.txt
+- type: DomainSecurity
+  url: security/geode-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/geode-vulnerability-disclosure.yml
+- type: Security
+  url: https://docs.geode.fi/developers/bug-bounties
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

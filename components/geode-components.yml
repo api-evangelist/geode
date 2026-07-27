@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/geo-vue ; https://github.com/Geodefi/geo-vue
+families:
+- family: geo-vue
+  kind: web-component-library
+  framework: vue
+  description: GeoDefi UI Component Library — reusable Vue front-end components for
+    building GeoDefi staking applications.
+  loader:
+    registry: npm
+    name: geo-vue
+    version: 1.0.3
+    install: npm install geo-vue
+  repository: https://github.com/Geodefi/geo-vue
+- family: create-geodefi
+  kind: app-scaffold
+  framework: javascript
+  description: Project template/scaffolder that bootstraps a GeoDefi application UI.
+  loader:
+    registry: npm
+    name: create-geodefi
+    version: 1.3.1
+    install: npm create geodefi
+  repository: https://github.com/Geodefi/create-geodefi

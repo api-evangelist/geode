@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/project/geodefi/ ; https://www.npmjs.com/org/geodefi ; https://github.com/Geodefi
+packages:
+- language: python
+  registry: pypi
+  name: geodefi
+  version: 3.2.0
+  url: https://pypi.org/project/geodefi/
+  install: pip install geodefi
+  repository: https://github.com/Geodefi/geode-py
+  description: Python SDK for the Geodefi Ecosystem.
+  requires_python: '<3.13,>=3.8'
+  official: true
+- language: javascript
+  registry: npm
+  name: create-geodefi
+  version: 1.3.1
+  url: https://www.npmjs.com/package/create-geodefi
+  install: npm create geodefi
+  repository: https://github.com/Geodefi/create-geodefi
+  description: A UI template/scaffolder to get started developing GeoDefi apps.
+  official: true
+- language: javascript
+  registry: npm
+  name: geo-vue
+  version: 1.0.3
+  url: https://www.npmjs.com/package/geo-vue
+  install: npm install geo-vue
+  repository: https://github.com/Geodefi/geo-vue
+  description: GeoDefi UI Component Library (Vue).
+  official: true
